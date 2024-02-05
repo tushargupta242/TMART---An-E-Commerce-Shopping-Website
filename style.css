@@ -259,6 +259,116 @@ body {
     background-color: #088178;
     color: #fff;
 }
+#bbanner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bbannerbox{
+    background-image: url("img/banner/b17.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 45%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+} 
+.bbannerbox h4
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.bbannerbox h2{ 
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+    padding-bottom: 14px;
+}
+.bbannerbox span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.bbannerbox button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+.bbannerbox button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+#bbannerbox2{
+    background-image: url("img/banner/b10.jpg");
+}
+.tbanner{
+    display: flex;
+    justify-content: space-evenly;
 
+}
+.tbannerbox{
+    background-image: url("img/banner/b17.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 33%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20px 0px;
+    
+}
+.tbannerbox h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+}
+.tbannerbox span{
+    color:rgb(171, 41, 41)
+}
+.tbanner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 46px;
+}
+#tb1{
+    background-image: url("img/banner/b7.jpg");
+}
+#tb2{
+    background-image: url("img/banner/b4.jpg");
+}
+#tb3{
+    background-image: url("img/banner/b18.jpg");
+}
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
 
-
+.btn:hover{
+    background-color: #088178;
+    color: #fff;
+}
