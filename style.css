@@ -482,6 +482,9 @@ body {
 
 @media(max-width:799px)
 {
+    .section-p1{
+        padding: 40px 40px ;
+    }
     #nav_bar
     {
     display: flex;
@@ -520,5 +523,56 @@ body {
     }
     #cartr{
         display: none;
+    }
+    .hero{
+        
+       
+        height: 70vh;
+        padding: 0px 80px;
+       background-position: top 30% right 30%;
+    }
+    #feature {
+        flex-wrap: wrap;
+       justify-content: center;
+       
+        
+    }
+    .featurebox {
+
+        margin: 5px 5px;
+    }
+    .productcon {
+        
+        justify-content: center;
+        padding: 150px;
+    }
+    #bbannerbox {
+        width: 100%;
+        
+    }
+    .tbannerbox {
+        
+       width: 29%;
+        height: 30vh;
+        padding: 0px 40px;
+
+    }
+}
+@media (max-width: 477px)
+{
+    .header{
+        padding: 10px 30px;
+    }
+    .hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    .hero h1{
+        font-size: 38px;
+
+    }
+    .hero h2
+    {
+        font-size: 32px;
     }
 }
